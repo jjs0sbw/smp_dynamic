@@ -238,37 +238,37 @@ out9dh2d = \
 [0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],\
 [0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
 
-# From Incose Journal Article : plus 5 - Marking Space
+# From INCOSE Journal Article : plus 5 - Marking Space
 strp5dsm7ja2d = \
 [[0,0,0,0,1,1,0],[0,0,0,1,0,0,1],[0,1,0,1,0,0,1],[0,1,1,0,1,0,1],\
 [0,0,0,1,0,1,0],[1,0,0,0,1,0,0],[0,1,1,1,0,0,0]]
 
-#From Incose Journal Article ... plus 5
+# From INCOSE Journal Article : plus 5 - Value Space
 valp5dsm7ja2d = \
 [[0,6,7,8,9,10,11],[1,0,6,7,8,9,10],[2,1,0,6,7,8,9],[3,2,1,0,6,7,8],\
 [4,3,2,1,0,6,7],[5,4,3,2,1,0,6],[6,5,4,3,2,1,0]]
 
-#From Incose Journal Article ... plus 1
+# From INCOSE Journal Article : plus 1 - Initial Outcome Space
 outp5dsm7ja2d =\
 [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],\
 [0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]
 
-#From Incose Journal Article ... plus 1
+# From INCOSE Journal Article : plus 1 - Marking Space
 strp1dsm7ja2d = \
 [[0,0,0,0,1,1,0],[0,0,0,1,0,0,1],[0,1,0,1,0,0,0],[0,1,1,0,1,0,0],\
 [0,0,0,1,0,1,0],[1,0,0,0,1,0,0],[0,1,1,1,0,0,0]]
 
-#From Incose Journal Article ... plus 1
+# From INCOSE Journal Article : plus 1 - Value Space
 valp1dsm7ja2d = \
 [[0,2,3,4,5,6,7],[1,0,2,3,4,5,6],[2,1,0,2,3,4,5],[3,2,1,0,2,3,4],\
 [4,3,2,1,0,2,3],[5,4,3,2,1,0,2],[6,5,4,3,2,1,0]]
 
-#From Incose JOurnal Article ... plus 1
+# From Incose Journal Article : plus 1 - Initial Outcome Space
 outp1dsm7ja2d = \
 [[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],\
 [0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]
 
-#16 x 16 lms matrix ... initial value is 397...
+# 16 x 16 lms matrix : Initial value is 397 - Marking Space
 lms_an2c_16_26_397 = \
 [[0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0],\
  [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],\
