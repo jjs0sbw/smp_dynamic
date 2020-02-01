@@ -1,5 +1,5 @@
 # Data to support abstract relation type (ART) Python tests
-# Copyright 2008 - 2019 Joseph J. Simpson GPL-3.0-or-later
+# Copyright 2008 - 2020 Joseph J. Simpson GPL-3.0-or-later
 #   This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -18,17 +18,17 @@
 t2 = [22,22,22]
 
 
-#A 5 x 5 matrix set for matrix transpose testing
+# A 5 x 5 matrix set for matrix transpose testing
 test5mt2d =[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]
 
-#A 5 x 5 matrix set for ART formation and process testing
-t5js2d = \
+# A 5 x 5 matrix set for ART formation and process testing
+test5js2d = \
 [[0,0,1,0,0],[1,0,0,1,0],[0,0,0,0,1],[1,1,0,0,0],[0,0,0,1,0]],\
 [[0,1,2,3,4],[1,0,1,2,3],[2,1,0,1,2],[3,2,1,0,1],[4,3,2,1,0]],\
 [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
 
 #A 5x5 matrix for ART formation and process testing that has a begining total of 10
-t510js2d = \
+test510js2d = \
 [[0,0,0,1,0],[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,1],[0,0,1,1,0]],\
 [[0,1,2,3,4],[1,0,1,2,3],[2,1,0,1,2],[3,2,1,0,1],[4,3,2,1,0]],\
 [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
