@@ -27,51 +27,51 @@ test5js2d = \
 [[0,1,2,3,4],[1,0,1,2,3],[2,1,0,1,2],[3,2,1,0,1],[4,3,2,1,0]],\
 [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
 
-#A 5x5 matrix for ART formation and process testing that has a begining total of 10
+# A 5x5 matrix for ART formation and process testing that has a begining total of 10
 test510js2d = \
 [[0,0,0,1,0],[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,1],[0,0,1,1,0]],\
 [[0,1,2,3,4],[1,0,1,2,3],[2,1,0,1,2],[3,2,1,0,1],[4,3,2,1,0]],\
 [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
 
-#A 5x5 matrix for ART formation and process testing that has a begining total of 10 (new lms arrangement)
-t510ajs2d = \
+# A 5x5 matrix for ART formation and process testing that has a begining total of 10 (new lms arrangement)
+test510ajs2d = \
 [[0,1,0,0,0],[0,0,0,1,0],[1,0,0,0,0],[0,0,1,0,1],[0,0,1,1,0]],\
 [[0,1,2,3,4],[1,0,1,2,3],[2,1,0,1,2],[3,2,1,0,1],[4,3,2,1,0]],\
 [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
 
-#A 5x5 matrix for ART formation and process testing that has a begining total of 10 (new lms arrangement)
-t510bjs2d = \
+# A 5x5 matrix for ART formation and process testing that has a begining total of 10 (new lms arrangement)
+test510bjs2d = \
 [[0,1,1,0,0],[1,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1],[0,1,0,0,0]],\
 [[0,1,2,3,4],[1,0,1,2,3],[2,1,0,1,2],[3,2,1,0,1],[4,3,2,1,0]],\
 [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
 
-#A 2 x 2 matrix set for aRT formation and processig testing
-t2js2d = [[1,0],[0,1]], [[1,2],[3,4]], [[1,1],[1,1]]
+# A 2 x 2 matrix set for ART formation and processig testing
+test2js2d = [[1,0],[0,1]], [[1,2],[3,4]], [[1,1],[1,1]]
 
-#A test array to help work out the module import approach in python
+# A test array to help work out the module import approach in python
 test_array = [[1,2,3],[4,5,6],[7,8,9]]
 
-#A dynamic value sturcture for example in Appendix A of Advanced Systems by Derek Hitchins
-#Need to figure out how to deal with this type of problem
+# A dynamic value structure for example in Appendix A of Advanced Systems by Derek Hitchins
+# Need to verify this matrix - not a binary matrix
 val12dhA2d = \
 [[0,1,1,0,0,0,0,0,0,0,0,3],[0,0,0,0,0,0,0,0,2,0,0,0],[0,0,0,1,1,0,0,3,0,0,0,0],\
 [0,0,0,0,0,0,0,2,0,0,0,0],[0,0,3,0,0,0,0,0,0,0,3,0],[0,0,0,0,0,0,1,1,0,0,0,0],\
 [0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,1,0,0],[0,1,0,0,0,0,2,0,0,2,0,0],\
 [0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,3,0,0,0,0,0,0,0,0],[1,0,0,0,0,0,2,0,0,0,0,0]]
 
-#Initial marking space for example in Appendix A of Advanced Systems by Derek Hitchins
+# Initial marking space for example in Appendix A of Advanced Systems by Derek Hitchins
 str12dhA2d = \
 [[0,1,1,0,0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,1,1,0,0,1,0,0,0,0],\
 [0,0,0,0,0,0,0,1,0,0,0,0],[0,0,1,0,0,0,0,0,0,0,1,0],[0,0,0,0,0,0,1,1,0,0,0,0],\
 [0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,1,0,0],[0,1,0,0,0,0,1,0,0,1,0,0],\
 [0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0,0,0,0,0],[1,0,0,0,0,0,1,0,0,0,0,0]]
 
-#Structure Matrix Fron IKNCOSE Journal
+# Structure Matrix Fron INCOSE Journal
 str7sy2d = \
 [[0,0,0,0,1,1,0],[0,0,0,1,0,0,1],[0,1,0,1,0,0,1],[0,1,1,0,1,0,1],\
 [0,0,0,1,0,1,0],[1,0,0,0,1,0,0],[0,1,1,1,0,0,0]]
 
-#Value Matrix for DSM
+# Value Matrix for DSM
 val12syB2d = \
 [[0,43,44,45,46,47,48,49,50,51,52,53],[21,0,42,43,44,45,46,47,48,49,50,51],\
 [20,19,0,41,42,43,44,45,46,47,48,49],[19,18,17,0,40,41,42,43,44,45,46,47],\
@@ -80,7 +80,7 @@ val12syB2d = \
 [14,13,12,11,10,9,8,7,0,35,37,38],[13,12,11,10,9,8,7,6,5,0,34,35],\
 [12,11,10,9,8,7,6,5,4,3,0,33],[11,10,9,8,7,6,5,4,3,2,1,0]]
 
-#Value Matrix For DSM
+# Value Matrix For DSM
 val12syA2d = \
 [[0,53,55,57,59,61,63,65,67,69,71,73],[21,0,51,53,55,57,59,61,63,65,67,69],\
 [20,19,0,49,51,53,55,57,59,61,63,65],[19,18,17,0,47,49,51,53,55,57,59,61],\
