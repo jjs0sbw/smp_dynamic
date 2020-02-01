@@ -1,4 +1,4 @@
-# Copyright 2008 - 2019 Joseph J. Simpson GPL-3.0-or-later
+# Copyright 2008 - 2012 Joseph J. Simpson GPL-3.0-or-later
 #   This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -17,6 +17,8 @@ from datetime import date, datetime, time
 import numpy as np
 import copy
 import random
+np.random.seed(8912)
+random.seed(8912)
 
 class Art(object):
     """The ART class encapsulates the variable and methods required
