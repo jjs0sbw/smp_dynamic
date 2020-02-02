@@ -139,3 +139,53 @@ def valid_value_space_40p(ms5, vs5, os5):
     a25.create_good_art()
     return a25.lvs
 
+def valid_art_total_40p(ms5, vs5, os5):
+    a26 = artclass.Art(ms5, vs5, os5)
+    a26.create_good_art()
+    a27 = artclass.ValidArt(a26.vlms, a26.vlvs, a26.vlos, a26.art_vrc_1, a26.art_vrc_2)
+    
+    return a27.valid_art_total
+
+def valid_standard_matrix_45p(ms6, vs6, os6):
+    a28 = artclass.Art(ms6, vs6, os6)
+    a28.create_good_art()
+    return a28.valid_art
+
+def valid_marking_space_45p(ms6, vs6, os6):
+    a29 = artclass.Art(ms6, vs6, os6)
+    a29.create_good_art()
+    return a29.lms
+
+def valid_value_space_45p(ms6, vs6, os6):
+    a30 = artclass.Art(ms6, vs6, os6)
+    a30.create_good_art()
+    return a30.lvs
+
+def valid_art_total_45p(ms6, vs6, os6):
+    a31 = artclass.Art(ms6, vs6, os6)
+    a31.create_good_art()
+    a32 = artclass.ValidArt(a31.vlms, a31.vlvs, a31.vlos, a31.art_vrc_1, a31.art_vrc_2)
+    
+    return a32.valid_art_total
+
+def valid_standard_matrix_50p(ms7, vs7, os7):
+    a33 = artclass.Art(ms7, vs7, os7)
+    a33.create_good_art()
+    return a33.valid_art
+
+def valid_marking_space_50p(ms7, vs7, os7):
+    a34 = artclass.Art(ms7, vs7, os7)
+    a34.create_good_art()
+    return a34.lms
+
+def valid_value_space_50p(ms7, vs7, os7):
+    a35 = artclass.Art(ms7, vs7, os7)
+    a35.create_good_art()
+    return a35.lvs
+
+def valid_art_total_50p(ms7, vs7, os7):
+    a36 = artclass.Art(ms7, vs7, os7)
+    a36.create_good_art()
+    a37 = artclass.ValidArt(a36.vlms, a36.vlvs, a36.vlos, a36.art_vrc_1, a36.art_vrc_2)
+    
+    return a37.valid_art_total

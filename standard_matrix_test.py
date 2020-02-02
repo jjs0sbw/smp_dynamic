@@ -46,6 +46,16 @@ ms5 = artdata.SME_CD_9_40P_NER_DO_V001
 vs5 = artdata.SME_CD_9_40P_NER_DO_VS_V001
 os5 = artdata.SME_CD_9_40P_NER_DO_OS_V001
 
+# Standard Example 9 x 9 - 45 percent 
+ms6 = artdata.SME_CD_9_45P_NER_DO_V001
+vs6 = artdata.SME_CD_9_45P_NER_DO_VS_V001
+os6 = artdata.SME_CD_9_45P_NER_DO_OS_V001
+
+# Standard Example 9 x 9 - 50 percent 
+ms7 = artdata.SME_CD_9_50P_NER_DO_V001
+vs7 = artdata.SME_CD_9_50P_NER_DO_VS_V001
+os7 = artdata.SME_CD_9_50P_NER_DO_OS_V001
+
 
 def test_valid_standard_matrix_20p():
     assert sm.valid_standard_matrix_20p(ms1, vs1, os1) == True
@@ -222,4 +232,63 @@ def test_valid_value_space_40p():
      [6,5,4,3,2,1,0,1,2],[7,6,5,4,3,2,1,0,1],[8,7,6,5,4,3,2,1,0]])
     
     assert np.array_equal(array_25, array_26)      
+    
+
+def test_valid_art_total_40p(): 
+    out_5 = sm.valid_art_total_40p(ms5, vs5, os5)   
+
+    assert out_5 == 82  
+
+def test_valid_standard_matrix_45p():
+    assert sm.valid_standard_matrix_45p(ms6, vs6, os6) == True               
+    
+    
+def test_valid_marking_space_45p():
+    array_27 = np.array(sm.valid_marking_space_45p(ms6, vs6, os6))
+    array_28 = np.array(
+    [[0,1,0,0,1,1,0,0,0],[0,0,0,0,1,0,0,1,0],[0,0,0,0,1,0,0,1,1],\
+     [1,1,1,0,1,1,0,1,0],[0,1,0,1,0,1,0,0,0],[0,0,0,1,0,0,1,1,0],\
+     [0,1,0,0,0,0,0,1,1],[0,0,1,1,1,1,0,0,1],[0,1,0,0,0,1,1,1,0]] )   
+    
+    assert np.array_equal(array_27, array_28)        
+    
+def test_valid_value_space_45p():
+    array_29 = np.array(sm.valid_value_space_45p(ms6, vs6, os6))
+    array_30 = np.array(
+    [[0,1,2,3,4,5,6,7,8],[1,0,1,2,3,4,5,6,7],[2,1,0,1,2,3,4,5,6],\
+     [3,2,1,0,1,2,3,4,5],[4,3,2,1,0,1,2,3,4],[5,4,3,2,1,0,1,2,3],\
+     [6,5,4,3,2,1,0,1,2],[7,6,5,4,3,2,1,0,1],[8,7,6,5,4,3,2,1,0]])
+    
+    assert np.array_equal(array_29, array_30)    
+        
+def test_valid_art_total_45p(): 
+    out_6 = sm.valid_art_total_45p(ms6, vs6, os6)   
+
+    assert out_6 == 91   
+    
+def test_valid_standard_matrix_50p():
+    assert sm.valid_standard_matrix_50p(ms7, vs7, os7) == True               
+        
+def test_valid_marking_space_50p():
+    array_31 = np.array(sm.valid_marking_space_50p(ms7, vs7, os7))
+    array_32 = np.array(
+     [[0,0,1,1,0,0,0,0,1],[0,0,0,0,0,0,0,0,1],[0,1,0,1,0,1,1,0,1],\
+      [1,1,1,0,1,0,1,1,1],[0,1,1,0,0,0,0,1,1],[1,1,0,1,0,0,0,1,0],\
+      [1,0,1,0,0,0,0,1,0],[0,1,0,1,1,0,0,0,1],[1,1,0,1,1,1,0,0,0]])   
+    
+    assert np.array_equal(array_31, array_32)            
+    
+def test_valid_value_space_50p():
+    array_33 = np.array(sm.valid_value_space_50p(ms7, vs7, os7))
+    array_34 = np.array(
+    [[0,1,2,3,4,5,6,7,8],[1,0,1,2,3,4,5,6,7],[2,1,0,1,2,3,4,5,6],\
+     [3,2,1,0,1,2,3,4,5],[4,3,2,1,0,1,2,3,4],[5,4,3,2,1,0,1,2,3],\
+     [6,5,4,3,2,1,0,1,2],[7,6,5,4,3,2,1,0,1],[8,7,6,5,4,3,2,1,0]])
+    
+    assert np.array_equal(array_33, array_34)      
+    
+def test_valid_art_total_50p(): 
+    out_7 = sm.valid_art_total_50p(ms7, vs7, os7)   
+
+    assert out_7 == 131      
     
