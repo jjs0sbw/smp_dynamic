@@ -33,6 +33,10 @@ if __name__ == "__main__":
 
     print("\nValid Art has been created.\n")
 
+    total_av1 = av1.valid_art_total
+    
+    print("The initial matrix total is: " + str(total_av1) + "\n")
+
     na1 = artclass.NewArt(av1)
     na1.create_art_out()
 
