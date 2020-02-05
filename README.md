@@ -1,14 +1,22 @@
 ### Python 3 Abstract Relation Type Dimension Cluster Analysis
 
-#### Run the program with the following command:
+#### Run the standard matrix programs with the following commands:
 
-python3 art_dim_cluster_v0.1.0.py
+python3 sme_cd_9_20.py
 
-The ra1.txt file is a plain text listing of the program output.
+python3 sme_cd_9_25.py
 
-In the case of art_dim_cluster_v0.1.0.py the target value is 28 and the program returned a value of 30.
+python3 sme_cd_9_30.py
 
-Given the fact that this is a stochastic process the program may be rerun to see if the target value of 28 is ever achieved.
+python3 sme_cd_9_35.py
+
+python3 sme_cd_9_40.py
+
+python3 sme_cd_9_45.py
+
+python3 sme_cd_9_50.py
+
+The each program will generate a plain text listing of the program output.
 
 #### Run the tests with pytest
 
